@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Sevillana", cursive;
-    font-weight: 1000;
 }
 
 button {
@@ -39,8 +38,8 @@ header {
 .container {
     width: 75%;
     max-width: 1440px;
-    margin: 0 auto;
-    padding:0;
+    margin: 0px auto;
+    padding:0px;
 }
 
 .banner {
@@ -55,14 +54,12 @@ header {
     font-weight: 800;
     text-align: left;
 }
-.banner> .banner-text *{
+.banner>.banner-text>*{
     margin-bottom:32px;
     max-width:525px;
 }
 .banner .banner-img img{
     width:100%;
+    vertical-align:bottom;
 }
-.banner-img{
-    padding-bottom:0;
-    margin-bottom:0;
-}
+
