@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sevillana", cursive;
+    font-weight: 1000;
+}
+
+button {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 177px;
+    height: 64px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px 20px 43px;
+    border:0px;
+}
+
+P {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+header {
+    background-color: rgb(215, 248, 250);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:0;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text h1 {
+    color: rgb(39, 39, 39);
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+}
+.banner> .banner-text *{
+    margin-bottom:32px;
+    max-width:525px;
+}
+.banner .banner-img img{
+    width:100%;
+}
+.banner-img{
+    padding-bottom:0;
+    margin-bottom:0;
+}
